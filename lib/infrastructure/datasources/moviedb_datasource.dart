@@ -8,7 +8,7 @@ import 'package:cinemapedia/domain/entities/movie.dart';
 
 import '../../domain/datasources/movies_datasources.dart';
 
-class MoviedbDatasource extends MovieDatasource{
+class MoviedbDatasource extends MoviesDatasource{
   @override
   final dio  = Dio(BaseOptions(
     baseUrl: 'https://api.themoviedb.org/3',
